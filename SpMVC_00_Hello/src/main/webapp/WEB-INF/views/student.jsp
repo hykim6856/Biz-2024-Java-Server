@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>반갑습니다</h1>
-	<img src="./static/images/2024_4.png" width="100px",height="100px">
-	<a href="./student">학생정보</a>
-
+	<h1>학생정보</h1>
+	<p>${STD.stNum}</p>
+	<p>${STD.stName}</p>
+	<p>${STD.stGrade}</p>
+	
 </body>
 </html>
